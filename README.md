@@ -137,7 +137,7 @@ At `N` points in the 3D-Image, the sagittal, coronal, and axial view is extracte
 
 ## Results
 
-Text dazu schreiben was man wo sieht.
+Across 1000 unseen CT scans from the CT-RATE dataset the following metrics are achieved with the finetuned model.
 
 <table>
 <tr>
@@ -160,7 +160,9 @@ Text dazu schreiben was man wo sieht.
 
 <details>
 <summary>Example Report 1</summary>
-Text dazu schreiben was man wo sieht.
+
+On the left hand side, the provided report from the dataset is shown. On the right hand side, the predicted model output is shown. The differences between those two reports for the same CT scan are highlighted. Below the reports, the metrics associated with the genereated report are given.
+
 <table>
 <tr>
 <td><b style="font-size:30px">Ground Truth</b></td>
@@ -216,7 +218,9 @@ Impressions: **Findings within normal limits**<br/>
 
 <details>
 <summary>Example Report 2</summary>
-Text dazu schreiben was man wo sieht.
+
+On the left hand side, the provided report from the dataset is shown. On the right hand side, the predicted model output is shown. The differences between those two reports for the same CT scan are highlighted. Below the reports, the metrics associated with the genereated report are given.
+
 <table>
 <tr>
 <td><b style="font-size:30px">Ground Truth</b></td>
