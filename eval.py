@@ -34,11 +34,11 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
 
-    # Set the number of validation samples downloaded from the of ctrate dataset
+    # Set the number of validation samples downloaded from the of CT-RATE dataset
     parser.add_argument(
         "--samples",
         default=1000,
-        help="Number of samples downloaded from the CT-Rate dataset and subsequently predicted.",
+        help="Number of samples downloaded from the CT-RATE dataset and subsequently predicted.",
         type=int,
     )
 
@@ -118,7 +118,7 @@ if __name__ == "__main__":
     while downloaded_samples < args.samples:
         patient_path = patients[index]
         index += 1
-        # Download valid_fixed samples from the ct rate dataset from huggingface
+        # Download valid_fixed samples from the CT-RATE dataset from huggingface
         try:
             img_array, filename = download_ct_image(patient_path=patient_path, local_data_folder=data_folder)
         except Exception:

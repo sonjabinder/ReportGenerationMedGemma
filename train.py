@@ -231,7 +231,7 @@ if __name__ == "__main__":
     while downloaded_samples < args.samples:
         patient_path = patients[index]
         index += 1
-        # Download train_fixed samples from the ct rate dataset from huggingface
+        # Download train_fixed samples from the CT-RATE dataset from huggingface
         try:
             img_array, filename = download_ct_image(patient_path=patient_path, local_data_folder=data_folder)
         except Exception:

@@ -140,12 +140,12 @@ def v_shaped_steps(min_val: int, max_val: int, n: int, centering: float = 0.3) -
 
 
 def download_ct_image(patient_path: str, local_data_folder: str) -> tuple[np.ndarray, str]:
-    """Download a 3D ct scan from the ct-rate dataset.
+    """Download a 3D ct scan from the CT-RATE dataset.
 
     If a patient was scanned at multiple points of time or multiple reconstructions of the same scan are available, there is only one random scan of this patient picked.
 
     Args:
-        patient_path (str): Huggingface path to a patient directory in the ct-rate dataset.
+        patient_path (str): Huggingface path to a patient directory in the CT-RATE dataset.
         local_data_folder (str): Local directory to save the 3D ct scan.
 
     Raises:
@@ -196,10 +196,10 @@ def download_ct_image(patient_path: str, local_data_folder: str) -> tuple[np.nda
 
 
 def download_ctrate_csv(subfolder: str, file: str, local_data_folder: str) -> pd.DataFrame:
-    """Download and open a csv file from the ct-rate repository.
+    """Download and open a csv file from the CT-RATE repository.
 
     Args:
-        subfolder (str): Subfolder in the ct-rate repository.
+        subfolder (str): Subfolder in the CT-RATE repository.
         file (str): Name of the to be downloaded file.
         local_data_folder (str): Local directory to save the 3D ct scan.
 
