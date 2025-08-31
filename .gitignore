@@ -1,0 +1,13 @@
+# File with Huggingface Token
+.env
+
+# Data and model folders
+data/*
+models/*
+
+# Folders for development
+__pycache__/
+.vscode/
+
+# Exported docker images
+docker/export/*
