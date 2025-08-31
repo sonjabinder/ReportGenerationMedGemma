@@ -42,11 +42,10 @@ For further architecture details, see https://deepmind.google/models/gemma/medge
   py -m pip install -r requirements.txt       # Windows
   ```
 
-4. Create a file `.env` and save your huggingface token with the required permissions for both MedGemma as well as the CT-RATE dataset with the format 
+4. Create a file `.env` and save your huggingface token with the required permissions for both MedGemma as well as the CT-RATE dataset in it with the following format 
   ```bash
   HF_TOKEN=<YOUR-HF-TOKEN>
   ```
-in it.
 
 ## Project Structure
 
